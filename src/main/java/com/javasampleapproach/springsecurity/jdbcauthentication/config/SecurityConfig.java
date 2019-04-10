@@ -12,7 +12,7 @@ import org.springframework.security.config.annotation.web.configuration.WebSecur
 @Configuration
 @EnableAutoConfiguration
 public class SecurityConfig extends WebSecurityConfigurerAdapter {
- 
+
 	@Autowired
 	DataSource dataSource;
  
